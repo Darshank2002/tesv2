@@ -1,0 +1,202 @@
+#SingleCard .card {
+    font-family: 'Montserrat', sans-serif;
+
+
+    border-radius: 20px;
+    border-style: none;
+    filter: drop-shadow(0px 0px 31px rgba(0, 0, 0, 0.05));
+
+}
+
+#SingleCard .card-body {
+    padding: 0px;
+}
+
+#rank {
+    align-content: center;
+    background: #B9FFB3;
+    border-radius: 0px 20px 20px 0px;
+}
+
+#rank:hover {
+    align-content: center;
+    background: #8cf783;
+    border-radius: 0px 20px 20px 0px;
+}
+
+#rank-inner {
+    margin: 70px auto;
+}
+
+#rank-inner .badge {
+    border-radius: 10px;
+    background-color: white;
+
+}
+
+#rank-inner .badge h3 {
+    font-size: 20px;
+
+}
+
+#rank-inner #upArrow {
+    color: #3F9D37;
+}
+
+#SingleCard .card #content {
+    padding: 20px 40px;
+
+}
+
+#SingleCard .card #content #profilePhoto img {
+
+    border-radius: 50%;
+    width: 100%;
+    max-width: 60px;
+    height: auto;
+
+}
+
+#SingleCard .card #content #profileInfo {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+#SingleCard .card #content #profileInfo p {
+    font-size: 12px;
+    margin: 0px;
+}
+
+#SingleCard .card #content #profileInfo h6 {
+    margin: 0px;
+
+}
+
+#SingleCard .card #content #Title {
+
+    margin: 20px auto;
+    text-align: left;
+}
+
+#Title h5 {
+    margin-bottom: 3px;
+    padding: 0px;
+}
+
+#Title p {
+    padding: 0px;
+}
+
+#SingleCard .card #content button {
+    width: 100%;
+    margin-right: 5px;
+    background: #FFD872;
+    border: 2px solid #E9C979;
+    box-sizing: border-box;
+    border-radius: 10px;
+    color: #B07F00;
+}
+
+#SingleCard .card #content #Open a {
+    font-size: 14px;
+
+    color: #B07F00;
+    text-decoration: none;
+    width: 100%;
+    margin-right: 5px;
+    background: #FFD872;
+    border: 2px solid #E9C979;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+#SingleCard .card #content #Open a:hover {
+
+    color: #866102;
+}
+
+#SingleCard .card {
+    margin: 20px 0px 40px;
+}
+
+
+@media only screen and (max-width: 768px) {
+
+    #rank-inner {
+        margin: 50px auto;
+    }
+
+    #SingleCard .card {
+        margin-bottom: 15px;
+    }
+
+    #SingleCard .card #content #profileInfo p {
+        font-size: 10px;
+        margin: 0px;
+    }
+
+    #SingleCard .card #content #profileInfo h6 {
+        font-size: 12px;
+
+        margin: 0px;
+    }
+
+    #Title h5 {
+        font-size: 14px;
+        margin-bottom: 3px;
+        padding: 0px;
+    }
+
+    #Title p {
+        font-size: 12px;
+        padding: 0px;
+        margin-bottom: 0px;
+
+    }
+
+    #SingleCard .card #content #Title {
+
+        margin: 10px auto;
+        text-align: left;
+    }
+
+    #SingleCard .card #content button {
+        font-size: 12px;
+        padding: 5px 0px;
+        color: #B07F00;
+        text-decoration: none;
+    }
+
+    #SingleCard .card #content #Open a {
+        font-size: 12px;
+
+        color: #B07F00;
+        text-decoration: none;
+    }
+
+    #SingleCard .card #content #KnowMore,
+    #SingleCard .card #content #Open {
+        padding: 2px;
+    }
+
+    #SingleCard .card #content button a:hover {
+
+        color: #866102;
+    }
+
+    #rank-inner .badge h3 {
+        font-size: 14px;
+
+    }
+
+    #SingleCard .card {
+        font-family: 'Montserrat', sans-serif;
+
+        margin: 20px auto;
+        border-radius: 20px;
+        border-style: none;
+        filter: drop-shadow(0px 0px 31px rgba(0, 0, 0, 0.05));
+
+    }
+
+}

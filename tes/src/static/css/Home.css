@@ -1,0 +1,89 @@
+#Home #searchBar input {
+    background-color: white;
+    border-style: none;
+    box-shadow: -10px 0px 29px rgba(0, 0, 0, 0.05);
+    border-radius: 6px 0px 0px 6px;
+    width: 100%;
+    max-width: 800px;
+}
+
+
+#Home #searchBar button {
+    background-color: white;
+    border-style: none;
+    box-shadow: 10px 0px 29px rgba(0, 0, 0, 0.05);
+    border-radius: 0px 6px 6px 0px;
+
+}
+
+
+#Home #searchBar {
+    margin: 30px 0px;
+}
+
+#Home #TabsNav {
+    padding-left: 12px;
+    padding-right: 12px;
+    margin: 10px 0px;
+}
+
+#Home #CardGrid {
+    margin: 30px 0px;
+}
+
+#Types .nav-pills .nav-link.active,
+#Types .nav-pills .show>.nav-link {
+    color: #866102;
+    background-color: #FFD872;
+}
+
+#Types a {
+    color: #866102;
+}
+
+
+#sidebar .card {
+    width: 20rem;
+    border-radius: 20px;
+    border-style: none;
+    filter: drop-shadow(0px 0px 31px rgba(0, 0, 0, 0.05));
+
+
+}
+
+#sidebar #side-inner {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 20px;
+}
+
+#sidebar #side-footer {
+    margin: 10px 40px;
+}
+
+#sidebar #side-footer span {
+    margin-right: 5px;
+    font-size: 13px;
+    font-weight: normal;
+}
+
+#trending-element p {
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+    #Types .nav a {
+        font-size: 12px;
+    }
+
+    #sidebar {
+        display: none;
+    }
+
+    #Types .nav-link.active,
+    #Types .nav-link {
+        padding-left: 6px;
+        padding-right: 6px;
+    }
+
+}

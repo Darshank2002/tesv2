@@ -1,0 +1,41 @@
+#UploadForm input {
+    height: 50px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 31px rgba(0, 0, 0, 0.07);
+    border-radius: 15px;
+    border-style: none;
+    margin-bottom: 20px;
+}
+
+#UploadForm select {
+    height: 50px;
+
+    box-shadow: 0px 0px 31px rgba(0, 0, 0, 0.07);
+    border-radius: 15px;
+    border-style: none;
+    margin-bottom: 20px;
+
+
+}
+
+#UploadForm textarea {
+    height: 200px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 31px rgba(0, 0, 0, 0.07);
+    border-radius: 15px;
+    border-style: none;
+    margin-bottom: 20px;
+
+
+}
+
+#UploadForm label {
+    font-size: 14px;
+    color: rgb(143, 142, 142);
+}
+
+@media only screen and (max-width: 768px) {
+    #infoAlert {
+        font-size: 12px;
+    }
+}

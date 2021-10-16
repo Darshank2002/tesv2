@@ -1,0 +1,108 @@
+#ProfilePage {
+    margin: 50px auto;
+}
+
+#profilePhoto img {
+    text-align: center;
+    border-radius: 50%;
+    width: 100%;
+    max-width: 80px;
+    height: auto;
+
+}
+
+#profileInfo p {
+    font-size: 16px;
+    margin: 0px;
+}
+
+#profileInfo h5 {
+    margin: 0px;
+}
+
+.upvoteCnt {
+    background-color: white;
+    border-style: none;
+    filter: drop-shadow(0px 0px 31px rgba(0, 0, 0, 0.05));
+    border-radius: 20px;
+    padding: 15px;
+    height: 100%;
+}
+
+.upvoteCnt h5 {
+    margin-bottom: 0px;
+}
+
+.upvoteCnt h6 {
+    margin-bottom: 0px;
+}
+
+.upvoteCnt h3 {
+    color: #3F9D37;
+}
+
+.followBtn {
+    background-color: white;
+    border-style: none;
+    filter: drop-shadow(0px 0px 31px rgba(0, 0, 0, 0.05));
+    border-radius: 20px;
+    padding: 15px;
+    height: inherit;
+    height: 100%;
+    width: 50%;
+    color: rgb(43, 43, 43);
+
+}
+
+.followBtn:hover {
+    background-color: rgb(241, 241, 241);
+    border-style: none;
+    filter: drop-shadow(0px 0px 31px rgba(0, 0, 0, 0.068));
+    border-radius: 20px;
+    color: rgb(0, 0, 0);
+}
+
+.followBtn * {
+    margin-bottom: 0px;
+
+}
+
+#ProfileTabs .nav-tabs {
+    border-bottom: none;
+}
+
+
+
+
+#ProfileTabs .nav-link.active {
+    color: #866102;
+    background-color: #FFD872;
+    border-radius: 5px;
+}
+
+#ProfileTabs .nav-link {
+    color: #866102;
+}
+
+@media only screen and (max-width: 768px) {
+    .upvoteCnt .nav a {
+        font-size: 12px;
+    }
+
+
+
+    .upvoteCnt .nav-link.active,
+    .upvoteCnt .nav-link {
+        padding-left: 6px;
+        padding-right: 6px;
+    }
+
+    #profileInfo h5 {
+        font-size: 14px;
+    }
+
+    button#tab {
+        font-size: 12px;
+    }
+
+}

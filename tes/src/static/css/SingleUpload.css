@@ -1,0 +1,103 @@
+body {
+    background-color: #FFFDF8;
+}
+
+#CreatorSection .card {
+    height: 83%;
+    margin: 40px 0px 20px 0px;
+    border-radius: 20px;
+    border-style: none;
+    filter: drop-shadow(0px 0px 31px rgba(0, 0, 0, 0.05));
+}
+
+#profilePhoto img {
+    text-align: center;
+    border-radius: 50%;
+    width: 100%;
+    max-width: 80px;
+    height: auto;
+
+}
+
+#profileInfo p {
+    font-size: 16px;
+    margin: 0px;
+}
+
+#profileInfo h5 {
+    margin: 0px;
+}
+
+#CreatorInfo p {
+    font-size: 14px;
+}
+
+#CreatorInfo {
+    padding: auto 20px;
+}
+
+#ContentBody .card {
+
+    border-radius: 20px;
+    border-style: none;
+    filter: drop-shadow(0px 0px 31px rgba(0, 0, 0, 0.05));
+}
+
+#ShareBtn svg {
+    border-radius: 10px;
+    background-color: #FFD872;
+    padding: 8px;
+
+}
+
+#ShareBtn svg:hover {
+    background-color: #fccf5e;
+    cursor: pointer;
+
+}
+
+#Description {
+    padding: 0px 40px;
+}
+
+#Description p {
+    margin-bottom: 0px;
+}
+
+#profileInfo {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+@media only screen and (max-width: 768px) {
+    #CreatorSection {
+        display: none;
+    }
+
+    #CreatorSection .card {
+        margin: 10px auto;
+        margin-top: 0px;
+        border-radius: 20px;
+        border-style: none;
+        filter: drop-shadow(0px 0px 31px rgba(0, 0, 0, 0.05));
+    }
+
+    #Description {
+        padding: 0px 15px;
+    }
+
+    #profileInfo p {
+        font-size: 10px;
+        margin: 0px;
+    }
+
+    #profileInfo h5 {
+        font-size: 12px;
+
+        margin: 0px;
+    }
+
+    #Description p {
+        font-size: 14px;
+    }
+}
